@@ -269,17 +269,17 @@ export function NominationModal({ isOpen, onClose }: NominationModalProps) {
                 className="mt-1 text-gray-900"
               >
                 <option value="">Chọn hạng mục đề cử</option>
-                <option value="Nhân viên xuất sắc tháng 7">Nhân viên xuất sắc tháng 7</option>
-                <option value="Phòng ban/trung tâm xuất sắc tháng 7">Phòng ban/trung tâm xuất sắc tháng 7</option>
-                <option value="Nhân viên xuất sắc tháng 8">Nhân viên xuất sắc tháng 8</option>
-                <option value="Phòng ban/trung tâm xuất sắc tháng 8">Phòng ban/trung tâm xuất sắc tháng 8</option>
-                <option value="Nhân viên xuất sắc tháng 9">Nhân viên xuất sắc tháng 9</option>
-                <option value="Phòng ban/trung tâm xuất sắc tháng 9">Phòng ban/trung tâm xuất sắc tháng 9</option>
-                <option value="Nhân viên kinh doanh/tuyển sinh xuất sắc quý 3">Nhân viên kinh doanh/tuyển sinh xuất sắc quý 3</option>
-                <option value="Nhân viên giáo vụ xuất sắc quý 3">Nhân viên giáo vụ xuất sắc quý 3</option>
-                <option value="Nhân viên sản phẩm/công nghệ xuất sắc quý 3">Nhân viên sản phẩm/công nghệ xuất sắc quý 3</option>
-                <option value="Nhân viên hỗ trợ xuất sắc quý 3">Nhân viên hỗ trợ xuất sắc quý 3</option>
-                <option value="Phòng ban xuất sắc quý 3">Phòng ban xuất sắc quý 3</option>
+                <option value="Nhân viên xuất sắc tháng 10">Nhân viên xuất sắc tháng 10</option>
+                <option value="Phòng ban/trung tâm xuất sắc tháng 10">Phòng ban/trung tâm xuất sắc tháng 10</option>
+                <option value="Nhân viên xuất sắc tháng 11">Nhân viên xuất sắc tháng 11</option>
+                <option value="Phòng ban/trung tâm xuất sắc tháng 11">Phòng ban/trung tâm xuất sắc tháng 11</option>
+                <option value="Nhân viên xuất sắc tháng 12">Nhân viên xuất sắc tháng 12</option>
+                <option value="Phòng ban/trung tâm xuất sắc tháng 12">Phòng ban/trung tâm xuất sắc tháng 12</option>
+                <option value="Nhân viên kinh doanh/tuyển sinh xuất sắc quý 4">Nhân viên kinh doanh/tuyển sinh xuất sắc quý 4</option>
+                <option value="Nhân viên giáo vụ xuất sắc quý 4">Nhân viên giáo vụ xuất sắc quý 4</option>
+                <option value="Nhân viên sản phẩm/công nghệ xuất sắc quý 4">Nhân viên sản phẩm/công nghệ xuất sắc quý 4</option>
+                <option value="Nhân viên hỗ trợ xuất sắc quý 4">Nhân viên hỗ trợ xuất sắc quý 4</option>
+                <option value="Phòng ban xuất sắc quý 4">Phòng ban xuất sắc quý 4</option>
               </Select>
             </div>
           </div>
