@@ -79,7 +79,7 @@ export function NominationHeader({
             <div className="flex items-center gap-2">
               <Star className="h-5 w-5 text-[#f97316] fill-[#f97316]" />
               <span className="text-sm font-medium text-white/80">
-                9 ứng viên xuất sắc
+                9 đề cử xuất sắc
               </span>
             </div>
             <div className="h-4 w-px bg-white/20" />
@@ -95,7 +95,7 @@ export function NominationHeader({
             <div className="flex items-center gap-2">
               <Star className="h-5 w-5 text-[#f97316] fill-[#f97316]" />
               <span className="text-sm font-medium text-white/80">
-                11 ứng viên xuất sắc
+                11 đề cử xuất sắc
               </span>
             </div>
             <div className="h-4 w-px bg-white/20" />
