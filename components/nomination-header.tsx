@@ -65,7 +65,6 @@ export function NominationHeader({
             <span className="text-2xl sm:text-3xl lg:text-4xl mt-4 block text-white/90">
               Danh sách nhân viên xuất sắc tháng 5, 6 và Quý 2
             </span>
-            <br />
             <span className="text-2xl sm:text-3xl lg:text-4xl mt-4 block text-white/90">
               Danh sách nhân viên xuất sắc tháng 7, 8, 9 và Quý 3
             </span>
@@ -92,12 +91,7 @@ export function NominationHeader({
             </div>
           </div>
 
-          <p className="mt-8 text-pretty text-lg leading-8 text-white/80 sm:text-xl">
-            Chương trình xây dựng nhân tôn vinh các cá nhân, tập thể có thành
-            tích xuất sắc, góp phần vào sự phát triển của Galaxy Education
-          </p>
-
-          <div className="mt-12 flex items-center justify-center gap-8">
+          <div className="mt-2 flex items-center justify-center gap-8">
             <div className="flex items-center gap-2">
               <Star className="h-5 w-5 text-[#f97316] fill-[#f97316]" />
               <span className="text-sm font-medium text-white/80">
