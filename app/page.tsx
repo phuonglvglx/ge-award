@@ -36,7 +36,7 @@ export default function NominationPage() {
         .map(formatNomineeForDisplay)
     } else {
       // year: Hiển thị tất cả nominees (chưa có dữ liệu riêng cho năm)
-      return dataNominee.map(formatNomineeForDisplay)
+      return []
     }
   })()
 
