@@ -1,34 +1,38 @@
-"use client"
+"use client";
 
-import { Award, Star, Plus } from "lucide-react"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { dataMonth } from "@/data/data"
+import { Award, Star, Plus } from "lucide-react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { dataMonth } from "@/data/data";
 
 interface NominationHeaderProps {
-  selectedMonth: string
-  nomineeCount: number
-  onNominateClick: () => void
+  selectedMonth: string;
+  nomineeCount: number;
+  onNominateClick: () => void;
 }
 
-export function NominationHeader({ selectedMonth, nomineeCount, onNominateClick }: NominationHeaderProps) {
+export function NominationHeader({
+  selectedMonth,
+  nomineeCount,
+  onNominateClick,
+}: NominationHeaderProps) {
   // Tìm thông tin tháng từ dữ liệu
-  const monthInfo = dataMonth.find(month => month.value === selectedMonth)
-  const monthLabel = monthInfo?.label || "Chưa chọn"
-  
+  const monthInfo = dataMonth.find((month) => month.value === selectedMonth);
+  const monthLabel = monthInfo?.label || "Chưa chọn";
+
   // Xác định quý dựa trên tháng
   const getQuarter = (monthValue: string) => {
-    const num = parseInt(monthValue)
-    if (num >= 1 && num <= 3) return "Q1"
-    if (num >= 4 && num <= 6) return "Q2" 
-    if (num >= 7 && num <= 9) return "Q3"
-    if (num >= 10 && num <= 12) return "Q4"
-    if (num === 13) return "Q1"
-    if (num === 14) return "Q2"
-    if (num === 15) return "Q3"
-    if (num === 16) return "Q4"
-    return "Q1"
-  }
+    const num = parseInt(monthValue);
+    if (num >= 1 && num <= 3) return "Q1";
+    if (num >= 4 && num <= 6) return "Q2";
+    if (num >= 7 && num <= 9) return "Q3";
+    if (num >= 10 && num <= 12) return "Q4";
+    if (num === 13) return "Q1";
+    if (num === 14) return "Q2";
+    if (num === 15) return "Q3";
+    if (num === 16) return "Q4";
+    return "Q1";
+  };
 
   return (
     <header className="relative overflow-hidden">
@@ -59,7 +63,11 @@ export function NominationHeader({ selectedMonth, nomineeCount, onNominateClick 
             <span className="text-white">2025</span>
             <br />
             <span className="text-2xl sm:text-3xl lg:text-4xl mt-4 block text-white/90">
-              Danh sách nhân viên xuất sắc tháng 5,6 Quý 2
+              Danh sách nhân viên xuất sắc tháng 5, 6 và Quý 2
+            </span>
+            <br />
+            <span className="text-2xl sm:text-3xl lg:text-4xl mt-4 block text-white/90">
+              Danh sách nhân viên xuất sắc tháng 7, 8, 9 và Quý 3
             </span>
           </h1>
 
@@ -80,6 +88,27 @@ export function NominationHeader({ selectedMonth, nomineeCount, onNominateClick 
               <Award className="h-5 w-5 text-white" />
               <span className="text-sm font-medium text-white/80">
                 05 - 06/2025
+              </span>
+            </div>
+          </div>
+
+          <p className="mt-8 text-pretty text-lg leading-8 text-white/80 sm:text-xl">
+            Chương trình xây dựng nhân tôn vinh các cá nhân, tập thể có thành
+            tích xuất sắc, góp phần vào sự phát triển của Galaxy Education
+          </p>
+
+          <div className="mt-12 flex items-center justify-center gap-8">
+            <div className="flex items-center gap-2">
+              <Star className="h-5 w-5 text-[#f97316] fill-[#f97316]" />
+              <span className="text-sm font-medium text-white/80">
+                11 ứng viên xuất sắc
+              </span>
+            </div>
+            <div className="h-4 w-px bg-white/20" />
+            <div className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-white" />
+              <span className="text-sm font-medium text-white/80">
+                07 - 08 - 09/2025
               </span>
             </div>
           </div>
