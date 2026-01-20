@@ -12,11 +12,18 @@ interface MonthTabsProps {
   selectedMonth: string
   onMonthChange: (month: string) => void
   availableMonths: MonthData[]
+  periodType?: "month" | "quarter"
 }
 
-export function MonthTabs({ selectedMonth, onMonthChange, availableMonths }: MonthTabsProps) {
-  const row1Months = availableMonths.filter(m => ["01", "02", "03", "04", "05", "06", "13", "14"].includes(m.value));
-  const row2Months = availableMonths.filter(m => ["07", "08", "09", "10", "11", "12", "15", "16"].includes(m.value));
+export function MonthTabs({ selectedMonth, onMonthChange, availableMonths, periodType = "month" }: MonthTabsProps) {
+  // Filter months based on period type
+  const filteredMonths = periodType === "month" 
+    ? availableMonths.filter(m => parseInt(m.value) <= 12)
+    : availableMonths.filter(m => parseInt(m.value) > 12)
+
+  // Split into two rows for better layout
+  const row1Months = filteredMonths.filter((m, idx) => idx < Math.ceil(filteredMonths.length / 2))
+  const row2Months = filteredMonths.filter((m, idx) => idx >= Math.ceil(filteredMonths.length / 2))
 
   const renderMonthButton = (month: MonthData) => (
     <button
@@ -49,6 +56,16 @@ export function MonthTabs({ selectedMonth, onMonthChange, availableMonths }: Mon
       )}
     </button>
   );
+
+  if (filteredMonths.length === 0) {
+    return (
+      <div className="w-full max-w-4xl mx-auto">
+        <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 p-8 text-center">
+          <p className="text-gray-500">Chưa có dữ liệu cho {periodType === "month" ? "các tháng" : "các quý"}</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="w-full max-w-4xl mx-auto">

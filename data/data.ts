@@ -25,6 +25,7 @@ export const dataNominee = [
     title: "GE Star of the Month",
     desc: "Ghi nhận cá nhân có hiệu suất công việc xuất sắc, đạt KPIs và thể hiện tốt tinh thần làm việc nhóm trong tháng",
     month: "05",
+    year: "2024",
     img: "1spICPyBqeLrHjZn9c8UbGlKJ4Ei81xGJ",
   },
   {
@@ -34,6 +35,7 @@ export const dataNominee = [
     title: "GE Collective Impact Stars of the Month",
     desc: "Ghi nhận tập thể phòng ban đạt hoặc vượt mục tiêu chung, thể hiện sự phối hợp hiệu quả trong tháng.",
     month: "05",
+    year: "2024",
     img: "1xIbJW7nuXig1N6HT1A4AfvhUE9gJvfRH",
   },
   {
@@ -42,6 +44,7 @@ export const dataNominee = [
     achive: "Nhân viên xuất sắc tháng 6",
     title: "GE Star of the Month",
     month: "06",
+    year: "2024",
     img: "1e4ejGInB37TLSo-ofaIebkQuHPWxHJQc",
   },
 
@@ -51,6 +54,7 @@ export const dataNominee = [
     achive: "Phòng ban/đơn vị xuất sắc tháng 6",
     title: "GE Collective Impact Stars of the Month",
     month: "06",
+    year: "2024",
     img: "1xIbJW7nuXig1N6HT1A4AfvhUE9gJvfRH",
   },
 
@@ -61,6 +65,7 @@ export const dataNominee = [
     title: "GE Growth Star of the Quarter",
     desc: "Ghi nhận cá nhân có đóng góp xuất sắc vào sự tăng trưởng về số lượng học viên và doanh thu cho công ty trong quý",
     month: "14",
+    year: "2024",
     img: "1J8L8Va_4XhGX3reIJ0kFCOYfG6ccEv4J",
   },
   {
@@ -70,6 +75,7 @@ export const dataNominee = [
     title: "GE Learner Champion Star of the Quarter ",
     desc: "Ghi nhận cá nhân có đóng góp xuất sắc trong việc nâng cao chất lượng sản phẩm, dịch vụ giáo dục và trải nghiệm học tập, chăm sóc học viên/phụ huynh trong quý",
     month: "14",
+    year: "2024",
     img: "1VMCMROvC4iXFO4Ac3dLz-OymCCA1sZ8-",
   },
   {
@@ -79,6 +85,7 @@ export const dataNominee = [
     title: "GE Tech/Product Star of the Quarter",
     desc: "Ghi nhận cá nhân có đóng góp xuất sắc trong việc phát triển, cải tiến sản phẩm công nghệ giáo dục, nền tảng kỹ thuật hoặc giải pháp OMO, góp phần nâng cao lợi thế cạnh tranh và trải nghiệm người dùng trong quý",
     month: "14",
+    year: "2024",
     img: "1pqzjCIxyjipVeOeOZuj0v50b2oU014xC",
   },
   {
@@ -88,6 +95,7 @@ export const dataNominee = [
     achive: "Nhân viên hỗ trợ (BO) xuất sắc Quý 2",
     desc: "Ghi nhận cá nhân thuộc các bộ phận hỗ trợ đã có những đóng góp tích cực, hỗ trợ hiệu quả cho hoạt động chung của công ty và xây dựng văn hóa doanh nghiệp trong quý.",
     month: "14",
+    year: "2024",
     img: "1hf1v_WuGeiT6zldvX_pBvy-wZotmlIjh",
   },
   {
@@ -97,6 +105,7 @@ export const dataNominee = [
     title: "GE Collective Impact Stars of the Quarter ",
     desc: "Ghi nhận tập thể phòng ban có thành tích vượt trội, hoàn thành xuất sắc mục tiêu KPIs và thể hiện sự phối hợp hiệu quả, đóng góp vào thành công chung của công ty trong quý",
     month: "14",
+    year: "2024",
     img: "1uvbXObAjpeg3trUoa_BipXbCvRzlAaKi",
   },
   {
@@ -106,6 +115,7 @@ export const dataNominee = [
     title: "Outstanding Employee of the Month",
     desc: "Ghi nhận cá nhân có hiệu suất công việc xuất sắc, đạt KPIs và thể hiện tốt tinh thần làm việc nhóm trong tháng",
     month: "07",
+    year: "2024",
     img: "1UbcZQ5ViURYeN2TJwiq5LEgOT__WBqnx",
   },
   {
@@ -115,6 +125,7 @@ export const dataNominee = [
     title: "Outstanding Department/Unit of the Month",
     desc: "Ghi nhận tập thể phòng ban đạt hoặc vượt mục tiêu chung, thể hiện sự phối hợp hiệu quả trong tháng.",
     month: "07",
+    year: "2024",
     img: "1qtvPFTpWLfukJX3IWTwLLlo93kWVqrgE",
   },
   {
@@ -123,6 +134,7 @@ export const dataNominee = [
     achive: "Nhân viên xuất sắc tháng 8",
     title: "Outstanding Employee of the Month",
     month: "08",
+    year: "2024",
     img: "1Nfy3bao56KpCBsMlqNJxYWaPYuMHvtAf",
   },
 
@@ -132,6 +144,7 @@ export const dataNominee = [
     achive: "Phòng ban/đơn vị xuất sắc tháng 8",
     title: "Outstanding Department/Unit of the Month",
     month: "08",
+    year: "2024",
     img: "1qtvPFTpWLfukJX3IWTwLLlo93kWVqrgE",
   },
 
@@ -141,6 +154,7 @@ export const dataNominee = [
     achive: "Nhân viên xuất sắc tháng 9",
     title: "Outstanding Employee of the Month",
     month: "09",
+    year: "2024",
     img: "1fXQpbwN20WMCTBliDGHPzYGal8bfyyTw",
   },
 
@@ -150,6 +164,7 @@ export const dataNominee = [
     achive: "Phòng ban/đơn vị xuất sắc tháng 9",
     title: "Outstanding Department/Unit of the Month",
     month: "09",
+    year: "2024",
     img: "1O4HgaEJCTIDB4o1NE1tJRSdr5zh0OJfv",
   },
 
@@ -160,6 +175,7 @@ export const dataNominee = [
     title: "Outstanding Sales/Admissions Employee of the Quarter",
     desc: "Ghi nhận cá nhân có đóng góp xuất sắc vào sự tăng trưởng về số lượng học viên và doanh thu cho công ty trong quý",
     month: "15",
+    year: "2024",
     img: "1vwOn1GkfaDNoG1GbwhsU6-8_-iHD0XkF",
   },
 
@@ -170,6 +186,7 @@ export const dataNominee = [
     title: "Outstanding Tech/Product Employee of the Quarter",
     desc: "Ghi nhận cá nhân có đóng góp xuất sắc trong việc phát triển, cải tiến sản phẩm công nghệ giáo dục, nền tảng kỹ thuật hoặc giải pháp OMO, góp phần nâng cao lợi thế cạnh tranh và trải nghiệm người dùng trong quý",
     month: "15",
+    year: "2024",
     img: "1LNGd3R-gr9oD65CO_e-vJxzWCJRqdFxl",
   },
   {
@@ -179,6 +196,7 @@ export const dataNominee = [
     title: "Outstanding Academic Service Employee of the Quarter ",
     desc: "Ghi nhận cá nhân có đóng góp xuất sắc trong việc nâng cao chất lượng sản phẩm, dịch vụ giáo dục và trải nghiệm học tập, chăm sóc học viên/phụ huynh trong quý",
     month: "15",
+    year: "2024",
     img: "1bWhvjgmSk1QhsTiP-p7ClB77r_Kl5Jqh",
   },
 
@@ -189,6 +207,7 @@ export const dataNominee = [
     achive: "Nhân viên hỗ trợ (BO) xuất sắc Quý 3",
     desc: "Ghi nhận cá nhân thuộc các bộ phận hỗ trợ đã có những đóng góp tích cực, hỗ trợ hiệu quả cho hoạt động chung của công ty và xây dựng văn hóa doanh nghiệp trong quý.",
     month: "15",
+    year: "2024",
     img: "12qEsPnRdU14BbUijGIu5txWwJSQPSbnS",
   },
   {
@@ -198,6 +217,7 @@ export const dataNominee = [
     title: "Outstanding Department/Unit of the Quarter ",
     desc: "Ghi nhận tập thể phòng ban có thành tích vượt trội, hoàn thành xuất sắc mục tiêu KPIs và thể hiện sự phối hợp hiệu quả, đóng góp vào thành công chung của công ty trong quý",
     month: "15",
+    year: "2024",
     img: "1Wt-QkueWPXaxwKGoX-zkTxMlhKyOFIdF",
   },
 ];
