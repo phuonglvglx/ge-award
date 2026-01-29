@@ -107,7 +107,7 @@ export function NominationHeader({
             </div>
           </div>
 
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <Button
               onClick={onNominateClick}
               className="bg-[#f97316] hover:bg-[#ea580c] text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105"
@@ -115,7 +115,7 @@ export function NominationHeader({
               <Plus className="h-5 w-5 mr-2" />
               Đề cử nhân viên xuất sắc
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
