@@ -43,7 +43,7 @@ export const employeeOfYearCandidates: LeadershipCandidate[] = [
       "Hỗ trợ nhân viên ngay khi có thể trong các vấn đề liên quan đến phúc lợi.",
       "Tích cực kết nối/hỗ trợ với các phòng ban khác để hoàn thành tốt công việc",
     ],
-    img: "16skFR8GVoFN98J1tZleMFv5zIDZcVb1I",
+    img: "1CXCUvxtJ6WAsPQDyF3RK6v9jTPWROY3A",
   },
   {
     id: 2,
