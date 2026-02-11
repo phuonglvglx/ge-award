@@ -9,22 +9,23 @@ interface VotingModeToggleProps {
 
 export function VotingModeToggle({ mode, onModeChange }: VotingModeToggleProps) {
   const modes = [
+{ 
+      value: "leadership" as const, 
+      label: "BÌNH CHỌN NHÂN VIÊN XUẤT SẮC NĂM",
+      icon: Vote,
+      description: "Bình chọn các hạng mục năm 2025"
+    },
     { 
       value: "employee" as const, 
       label: "Danh sách Nhân viên/Tập thể xuất sắc",
       icon: Users,
       description: "Xem danh sách đề cử theo tháng, quý"
     },
-    { 
-      value: "leadership" as const, 
-      label: "BÌNH CHỌN NHÂN VIÊN XUẤT SẮC NĂM",
-      icon: Vote,
-      description: "Bình chọn các hạng mục năm 2025"
-    },
+    
   ]
 
   return (
-    <div className="w-full max-w-2xl mx-auto mb-8">
+    <div className="w-full max-w-3xl mx-auto mb-8">
       <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20 p-2">
         <nav className="flex gap-2" aria-label="Voting mode toggle">
           {modes.map((modeItem) => {
