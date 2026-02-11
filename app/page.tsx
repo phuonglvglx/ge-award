@@ -25,7 +25,7 @@ const formatNomineeForDisplay = (nominee: any) => ({
 export default function NominationPage() {
   const [selectedPeriod, setSelectedPeriod] = useState<"month" | "year" | "quarter">("month")
   const [isNominationModalOpen, setIsNominationModalOpen] = useState(false)
-  const [votingMode, setVotingMode] = useState<"employee" | "leadership">("employee")
+  const [votingMode, setVotingMode] = useState<"employee" | "leadership">("leadership")
   
   // State cho Success Modal
   const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false)
