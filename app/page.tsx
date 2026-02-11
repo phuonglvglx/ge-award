@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { NominationHeader } from "@/components/nomination-header"
 import { NomineeGrid } from "@/components/nominee-grid"
-import { StatsSection } from "@/components/stats-section"
 import { PeriodTabs } from "@/components/period-tabs"
 import { NominationModal } from "@/components/nomination-modal"
 import { VotingModeToggle } from "@/components/voting-mode-toggle"
@@ -19,7 +18,7 @@ const formatNomineeForDisplay = (nominee: any) => ({
   name: nominee.name,
   department: nominee.department,
   image: nominee.img,
-  achievements: [nominee.achive, nominee.title].filter(Boolean),
+  achievements: [nominee.achievement, nominee.title].filter(Boolean),
   description: nominee.desc || "",
 });
 
@@ -83,7 +82,6 @@ export default function NominationPage() {
         nomineeCount={currentNominees.length}
         onNominateClick={() => setIsNominationModalOpen(true)}
       />
-      <StatsSection />
       
       {/* Toggle giữa 2 chế độ */}
       <div className="mx-auto max-w-7xl px-6 pt-12">

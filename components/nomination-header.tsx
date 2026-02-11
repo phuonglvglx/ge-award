@@ -63,10 +63,7 @@ export function NominationHeader({
             <span className="text-white">2025</span>
             <br />
             <span className="text-2xl sm:text-3xl lg:text-4xl mt-4 block text-white/90">
-              Danh sách nhân viên xuất sắc tháng 5, 6 và Quý 2
-            </span>
-            <span className="text-2xl sm:text-3xl lg:text-4xl mt-4 block text-white/90">
-              Danh sách nhân viên xuất sắc tháng 7, 8, 9 và Quý 3
+              HẠNG MỤC GIẢI THƯỞNG NĂM
             </span>
           </h1>
 
@@ -75,37 +72,7 @@ export function NominationHeader({
             tích xuất sắc, góp phần vào sự phát triển của Galaxy Education
           </p>
 
-          <div className="mt-12 flex items-center justify-center gap-8">
-            <div className="flex items-center gap-2">
-              <Star className="h-5 w-5 text-[#f97316] fill-[#f97316]" />
-              <span className="text-sm font-medium text-white/80">
-                9 đề cử xuất sắc
-              </span>
-            </div>
-            <div className="h-4 w-px bg-white/20" />
-            <div className="flex items-center gap-2">
-              <Award className="h-5 w-5 text-white" />
-              <span className="text-sm font-medium text-white/80">
-                05 - 06/2025
-              </span>
-            </div>
-          </div>
 
-          <div className="mt-2 flex items-center justify-center gap-8">
-            <div className="flex items-center gap-2">
-              <Star className="h-5 w-5 text-[#f97316] fill-[#f97316]" />
-              <span className="text-sm font-medium text-white/80">
-                11 đề cử xuất sắc
-              </span>
-            </div>
-            <div className="h-4 w-px bg-white/20" />
-            <div className="flex items-center gap-2">
-              <Award className="h-5 w-5 text-white" />
-              <span className="text-sm font-medium text-white/80">
-                07 - 08 - 09/2025
-              </span>
-            </div>
-          </div>
 
           {/* <div className="mt-8">
             <Button

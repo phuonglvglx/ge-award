@@ -17,9 +17,9 @@ export function VotingModeToggle({ mode, onModeChange }: VotingModeToggleProps) 
     },
     { 
       value: "leadership" as const, 
-      label: "Bình chọn Lãnh đạo/Quản lý",
+      label: "HẠNG MỤC ĐỀ CỬ NĂM",
       icon: Vote,
-      description: "Bình chọn các hạng mục năm 2024"
+      description: "Bình chọn các hạng mục năm 2025"
     },
   ]
 

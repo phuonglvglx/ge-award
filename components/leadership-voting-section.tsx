@@ -127,15 +127,11 @@ export function LeadershipVotingSection({ onSubmitVote }: LeadershipVotingSectio
       
       {/* Header */}
       <div className="text-center mb-12">
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#1e40af] to-[#3b82f6] rounded-full text-white text-sm font-medium mb-4">
-          <Award className="h-4 w-4" />
-          Bình chọn dành cho Lãnh đạo/Quản lý
-        </div>
         <h2 className="text-3xl font-serif font-bold tracking-tight text-white sm:text-4xl mb-4">
-          Bình chọn các hạng mục năm 2024
+          BÌNH CHỌN CÁC HẠNG MỤC NĂM 2025
         </h2>
         <p className="text-lg text-white/80 max-w-2xl mx-auto">
-          Vui lòng xem xét kỹ và bình chọn cho các ứng cử viên xứng đáng trong từng hạng mục
+          Anh/ Chị Vui Lòng Xem Xét Kỹ Và Bình Chọn Cho Các Đề Cử Xứng Đáng Trong Từng Hạng Mục
         </p>
       </div>
 
