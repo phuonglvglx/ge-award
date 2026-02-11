@@ -313,7 +313,7 @@ export const departmentOfYearCandidates: LeadershipCandidate[] = [
     img: "18LzeUTvFurFFtJC6QmT1QFPj_5LJbfOF",
   },
   {
-    id: 3,
+    id: 2,
     name: "ICC Admission & ADC",
     achievement:
       "Vượt 158% KPI Cash English (158B), phát triển hệ thống 3.222 Agent mới.",
@@ -326,7 +326,7 @@ export const departmentOfYearCandidates: LeadershipCandidate[] = [
     img: "1ia1UN8QLqIil-fXVK05KnA7VNLWqujTx",
   },
   {
-    id: 7,
+    id: 3,
     name: "ICC Operations & Teaching",
     achievement:
       "Tự xây dựng hệ thống TMS tối ưu 80% thời gian quản lý và nâng cao chất lượng giảng dạy.",
@@ -339,7 +339,7 @@ export const departmentOfYearCandidates: LeadershipCandidate[] = [
     img: "1ia1UN8QLqIil-fXVK05KnA7VNLWqujTx",
   },
   {
-    id: 10,
+    id: 4,
     name: "Mentor 1-1 - Operations & Teaching",
     achievement:
       "Vận hành ổn định hệ thống với số buổi học tăng 40% (453.966 buổi) trong khi giữ nguyên nhân sự.",
@@ -352,7 +352,7 @@ export const departmentOfYearCandidates: LeadershipCandidate[] = [
     img: "1YJYd6wXcBTT3YBfdHX-DE8cqFbKT8OoK",
   },
   {
-    id: 13,
+    id: 5,
     name: "Tech & Product",
     achievement:
       "Hoàn thành dự án chiến lược Zeus, giúp tự động hóa 90% báo cáo và tập trung hóa dữ liệu.",
@@ -365,7 +365,7 @@ export const departmentOfYearCandidates: LeadershipCandidate[] = [
     img: "1gWbHDU_YvTu6yaE0wREix8GGxlwQj5_J",
   },
   {
-    id: 14,
+    id: 6,
     name: "Finance & Accounting",
     achievement:
       "Duy trì vận hành với 50% nhân sự, chuẩn hóa quy trình tài chính cho FUNiX.",
@@ -396,7 +396,7 @@ export const risingStarCandidates: LeadershipCandidate[] = [
     img: "1LxrQlV6frJUZkhrFOfkwzyyzKWGMjsOC",
   },
   {
-    id: 3,
+    id: 2,
     name: "Ngô Thị Hòa",
     department: "ICC Admission & ADC",
     achievement:
@@ -409,7 +409,7 @@ export const risingStarCandidates: LeadershipCandidate[] = [
     img: "1Qd-CvZZA57cbqo3_AyVaPZw_ilrwIOCS",
   },
   {
-    id: 9,
+    id: 3,
     name: "Khê Thị Ngọc Liễu",
     department: "Mentor 1-1 - Admission",
     achievement:
@@ -423,7 +423,7 @@ export const risingStarCandidates: LeadershipCandidate[] = [
     img: "1ay8BHBcCm6zaHDXi7RASfNqowUnKPA__",
   },
   {
-    id: 12,
+    id: 4,
     name: "Vũ Phương Thảo",
     department: "ESL",
     achievement:
@@ -436,7 +436,7 @@ export const risingStarCandidates: LeadershipCandidate[] = [
     img: "1k6HnnoyTeOU901pu_gbtdaZhAUhDbs0P",
   },
   {
-    id: 13,
+    id: 5,
     name: "Thiều Văn Thuận",
     department: "Tech & Product",
     achievement:
@@ -450,7 +450,7 @@ export const risingStarCandidates: LeadershipCandidate[] = [
     img: "1alKpGvl205ZNb90AY9kxz1pFfyjzoEOX",
   },
   {
-    id: 14,
+    id: 6,
     name: "Nguyễn Thị Thu Hằng",
     department: "Finance & Accounting",
     achievement:
@@ -482,7 +482,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
     img: "16jnwBG7158S8gYrohlaYp8VWzklnp-W8",
   },
   {
-    id: 3,
+    id: 2,
     name: "Bồ Quốc Tuấn",
     department: "ICC Admission & ADC",
     achievement:
@@ -496,7 +496,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
     img: "1pqzjCIxyjipVeOeOZuj0v50b2oU014xC",
   },
   {
-    id: 4,
+    id: 3,
     name: "Trần Huyền Trang",
     department: "ICC Retention",
     achievement:
@@ -510,7 +510,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
     img: "11KN3_co1KOfedu78TIozBA4hrTg0A57U",
   },
   {
-    id: 9,
+    id: 4,
     name: "Hồ Thị Nhuần",
     department: "Mentor 1-1 - Admission",
     achievement:
@@ -524,7 +524,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
     img: "1qlwuSP_L2sTeOWvHXRPC7UBhj0ZPf8nG",
   },
   {
-    id: 12,
+    id: 5,
     name: "Nguyễn Huệ Chi",
     department: "ESL",
     achievement:
@@ -537,7 +537,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
     img: "1F1qERCi5wodmd0u4K1N4DXfPquVfJB6P",
   },
   {
-    id: 13,
+    id: 6,
     name: "Vũ Việt Anh",
     department: "Tech & Product",
     achievement:
@@ -551,7 +551,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
     img: "1jC2cZDejbDiOwF9QeoCcmw03Xk5OOJT9",
   },
   {
-    id: 14,
+    id: 7,
     name: "Bùi Thị Thuỳ Linh",
     department: "Finance & Accounting",
     achievement:
@@ -570,7 +570,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
 export const leadershipVotingCategories: LeadershipVotingCategory[] = [
   {
     id: "ĐỀ CỬ_NHÂN VIÊN XUẤT SẮC",
-    name: "Nhân Viên Xuất Sắc Năm (13 đề cử)",
+    name: "Nhân Viên Xuất Sắc Năm (12 đề cử)",
     description: "",
     voters: "",
     note: "",
