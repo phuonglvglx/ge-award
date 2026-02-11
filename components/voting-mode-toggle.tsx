@@ -17,7 +17,7 @@ export function VotingModeToggle({ mode, onModeChange }: VotingModeToggleProps) 
     },
     { 
       value: "leadership" as const, 
-      label: "HẠNG MỤC ĐỀ CỬ NĂM",
+      label: "BÌNH CHỌN NHÂN VIÊN XUẤT SẮC NĂM",
       icon: Vote,
       description: "Bình chọn các hạng mục năm 2025"
     },
@@ -44,7 +44,7 @@ export function VotingModeToggle({ mode, onModeChange }: VotingModeToggleProps) 
               >
                 <div className="flex items-center justify-center gap-2">
                   <Icon className="h-5 w-5" />
-                  <span className="hidden sm:inline">{modeItem.label}</span>
+                  <span className="hidden sm:inline">{modeItem.label.toUpperCase()}</span>
                   <span className="sm:hidden">
                     {modeItem.value === "employee" ? "Nhân viên" : "Bình chọn"}
                   </span>
