@@ -320,18 +320,22 @@ function CategoryAccordion({
           </div>
           <div className="text-left">
             <h3 className="text-xl font-bold text-gray-900">{category.name}</h3>
-            <div className="flex items-center gap-3 mt-1">
-              <span className="text-sm text-gray-500 flex items-center gap-1">
-                <Users className="h-4 w-4" />
-                {category.voters}
-              </span>
-              {category.note && (
-                <span className="text-sm text-[#f97316] font-medium flex items-center gap-1">
-                  <AlertCircle className="h-4 w-4" />
-                  {category.note}
-                </span>
-              )}
-            </div>
+            {(category.voters || category.note) && (
+              <div className="flex items-center gap-3 mt-1">
+                {category.voters && (
+                  <span className="text-sm text-gray-500 flex items-center gap-1">
+                    <Users className="h-4 w-4" />
+                    {category.voters}
+                  </span>
+                )}
+                {category.note && (
+                  <span className="text-sm text-[#f97316] font-medium flex items-center gap-1">
+                    <AlertCircle className="h-4 w-4" />
+                    {category.note}
+                  </span>
+                )}
+              </div>
+            )}
           </div>
         </div>
         
@@ -356,10 +360,12 @@ function CategoryAccordion({
       {isExpanded && (
         <div className="px-6 pb-6 border-t border-gray-100">
           {/* Description */}
-          <div className="mt-4 p-4 bg-blue-50 rounded-xl flex items-start gap-3">
-            <Info className="h-5 w-5 text-[#1e40af] mt-0.5 flex-shrink-0" />
-            <p className="text-sm text-gray-700">{category.description}</p>
-          </div>
+          {category.description && (
+            <div className="mt-4 p-4 bg-blue-50 rounded-xl flex items-start gap-3">
+              <Info className="h-5 w-5 text-[#1e40af] mt-0.5 flex-shrink-0" />
+              <p className="text-sm text-gray-700">{category.description}</p>
+            </div>
+          )}
 
           {/* Warning if voter info not submitted */}
           {!voterInfoSubmitted && (

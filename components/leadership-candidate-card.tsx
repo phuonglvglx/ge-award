@@ -45,13 +45,14 @@ export function LeadershipCandidateCard({
   const displayedAchievements = isExpanded ? achievements : achievements.slice(0, 1)
 
   return (
-    <Card 
+    <Card
       className={`
         nominee-card group overflow-hidden border-2 bg-white/95 backdrop-blur-sm shadow-xl 
         transition-all duration-300 cursor-pointer hover:shadow-2xl
-        ${isSelected 
-          ? 'border-[#f97316] ring-2 ring-[#f97316] ring-offset-2' 
-          : 'border-transparent hover:border-[#1e40af]/30'
+        ${
+          isSelected
+            ? "border-[#f97316] ring-2 ring-[#f97316] ring-offset-2"
+            : "border-transparent hover:border-[#1e40af]/30"
         }
       `}
       onClick={handleClick}
@@ -70,7 +71,7 @@ export function LeadershipCandidateCard({
           </div>
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-        
+
         {/* Selection indicator */}
         {isSelected && (
           <div className="absolute top-4 right-4">
@@ -79,20 +80,22 @@ export function LeadershipCandidateCard({
             </div>
           </div>
         )}
-        
+
         {/* Candidate number */}
         <div className="absolute top-4 left-4">
           <Badge className="bg-white/90 text-[#1e40af] border-0 font-bold">
-            #{index + 1}
+            #{candidate.id}
           </Badge>
         </div>
       </div>
 
       <CardContent className="p-6">
         <h3 className="text-xl font-serif font-semibold text-gray-900 mb-2 text-balance">
-          {candidate.name}
+          {`${candidate.id}. ${candidate.name}`}
         </h3>
-        <p className="text-sm text-[#1e40af] font-medium mb-1">{candidate.position}</p>
+        <p className="text-sm text-[#1e40af] font-medium mb-1">
+          {candidate.position}
+        </p>
         <p className="text-sm text-gray-600 mb-4">{candidate.department}</p>
 
         {/* Achievements section */}
@@ -102,17 +105,19 @@ export function LeadershipCandidateCard({
               {displayedAchievements.map((achievement, i) => (
                 <div key={i} className="flex items-start gap-2">
                   <Award className="h-4 w-4 text-[#f97316] mt-0.5 flex-shrink-0" />
-                  <span className="text-sm text-gray-700 font-medium">{achievement}</span>
+                  <span className="text-sm text-gray-700 font-medium">
+                    {achievement}
+                  </span>
                 </div>
               ))}
             </div>
-            
+
             {/* Expand/Collapse button */}
             {hasMultipleAchievements && (
               <button
                 onClick={(e) => {
-                  e.stopPropagation()
-                  setIsExpanded(!isExpanded)
+                  e.stopPropagation();
+                  setIsExpanded(!isExpanded);
                 }}
                 className="mt-2 flex items-center gap-1 text-xs text-[#1e40af] hover:text-[#1e3a8a] font-medium transition-colors"
               >
@@ -146,16 +151,17 @@ export function LeadershipCandidateCard({
             onClick={handleVoteClick}
             className={`
               mt-2 w-full py-3 px-4 rounded-xl font-semibold text-sm transition-all duration-300
-              ${isSelected 
-                ? 'bg-[#f97316] text-white shadow-lg shadow-orange-500/25' 
-                : 'bg-gray-100 text-gray-700 hover:bg-[#1e40af] hover:text-white'
+              ${
+                isSelected
+                  ? "bg-[#f97316] text-white shadow-lg shadow-orange-500/25"
+                  : "bg-gray-100 text-gray-700 hover:bg-[#1e40af] hover:text-white"
               }
             `}
           >
-            {isSelected ? '✓ Đã chọn bình chọn' : 'Bình chọn'}
+            {isSelected ? "✓ Đã chọn bình chọn" : "Bình chọn"}
           </button>
         )}
       </CardContent>
     </Card>
-  )
+  );
 }

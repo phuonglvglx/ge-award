@@ -570,11 +570,10 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
 export const leadershipVotingCategories: LeadershipVotingCategory[] = [
   {
     id: "ĐỀ CỬ_NHÂN VIÊN XUẤT SẮC",
-    name: "Nhân viên xuất sắc năm",
-    description:
-      "12 ứng cử viên từ nhân viên xuất sắc Quý 2, 3, 4. Cá nhân và quản lý viết thành tích và gửi về BTC trước 10h sáng mai, 10/2/2025 (ghi rõ thành tích kèm số liệu minh chứng cụ thể)",
-    voters: "Quản lý vote",
-    note: "Không được vote cho team mình",
+    name: "Nhân Viên Xuất Sắc Năm (13 đề cử)",
+    description: "",
+    voters: "",
+    note: "",
     candidates: employeeOfYearCandidates,
   },
   //   {
@@ -587,29 +586,26 @@ export const leadershipVotingCategories: LeadershipVotingCategory[] = [
   //   },
   {
     id: "ĐỀ CỬ_PHÒNG BAN XUẤT SẮC",
-    name: "Phòng ban/đơn vị xuất sắc năm",
-    description:
-      "10 phòng ban/đơn vị. Quản lý phòng viết thành tích và gửi về BTC trước 10h sáng mai, 10/2/2025 (ghi rõ thành tích kèm số liệu minh chứng cụ thể)",
-    voters: "Ban điều hành (Anh Hiếu, Anh Linh, Anh Quế)",
+    name: "Phòng Ban/ Đơn Vị Xuất Sắc Năm (6 đề cử)",
+    description: "",
+    voters: "",
     note: "",
     candidates: departmentOfYearCandidates,
   },
   {
     id: "ĐỀ CỬ_RISING STAR",
-    name: "Nhân viên trẻ triển vọng - Rising Star",
-    description:
-      "Đại diện 10 phòng ban/đơn vị tại công ty. Cá nhân và Quản lý viết thành tích và gửi về BTC trước 10h sáng mai, 10/2/2025 (ghi rõ thành tích kèm số liệu minh chứng cụ thể)",
-    voters: "Quản lý vote",
-    note: "Không được vote cho team mình",
+    name: "Nhân Viên Trẻ Triển Vọng - Rising Star (6 đề cử)",
+    description: "",
+    voters: "",
+    note: "",
     candidates: risingStarCandidates,
   },
   {
     id: "ĐỀ CỬ_BEST TEAM PLAYER",
-    name: "Nhân viên có tinh thần đồng đội tốt nhất - Best team player",
-    description:
-      "Đại diện 10 phòng ban/đơn vị tại công ty. Quản lý viết thành tích và gửi về BTC trước 10h sáng mai, 10/2/2025 (ghi rõ thành tích kèm số liệu minh chứng cụ thể)",
-    voters: "Quản lý vote",
-    note: "Không được vote cho team mình",
+    name: "Nhân Viên Có Tinh Thần Đồng Đội Tốt Nhất - Best Team Player (7 đề cử)",
+    description: "",
+    voters: "",
+    note: "",
     candidates: bestTeamPlayerCandidates,
   },
 ];
