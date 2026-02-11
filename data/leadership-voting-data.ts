@@ -336,7 +336,7 @@ export const departmentOfYearCandidates: LeadershipCandidate[] = [
       "Hiệu suất vận hành: Rút ngắn thời gian tra cứu thông tin từ 20 phút xuống 2 phút; thời gian đánh giá video GV giảm từ 60 phút xuống 20 phút.",
       "Quản trị: Hoàn thiện bộ quy định, nội quy và cẩm nang quy chuẩn giao tiếp cho giáo viên toàn hệ thống.",
     ],
-    img: "11ia1UN8QLqIil-fXVK05KnA7VNLWqujTx",
+    img: "1ia1UN8QLqIil-fXVK05KnA7VNLWqujTx",
   },
   {
     id: 10,
@@ -507,7 +507,7 @@ export const bestTeamPlayerCandidates: LeadershipCandidate[] = [
       "Lãnh đạo dự án: Dẫn dắt đội ngũ 16 nhân sự và điều hành dự án CSS giúp nâng cao trải nghiệm học viên.",
       "Chuẩn hóa vận hành: Phối hợp liên phòng ban để chuẩn hóa SLA khối, đảm bảo tiến độ gia hạn ổn định.",
     ],
-    img: "1hf1v_WuGeiT6zldvX_pBvy-wZotmlIjh",
+    img: "11KN3_co1KOfedu78TIozBA4hrTg0A57U",
   },
   {
     id: 9,

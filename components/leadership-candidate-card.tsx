@@ -63,7 +63,7 @@ export function LeadershipCandidateCard({
             src={`https://drive.usercontent.google.com/download?id=${candidate.img}`}
             alt={candidate.name}
             layout="fill"
-            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+            className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
           <div className="h-full w-full bg-gradient-to-br from-[#1e40af] to-[#3b82f6] flex items-center justify-center">
